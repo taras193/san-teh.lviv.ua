@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="215px" height="24px" viewBox="0 0 215 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>F35C56DE-5D67-46FF-9528-E067C6C62AEC</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-972.000000, -108.000000)">
+            <g id="Top-Navigation" transform="translate(0.000000, 80.000000)">
+                <g id="Special-Icon-Copy">
+                    <g transform="translate(967.000000, 26.000000)">
+                        <text id="Текст" font-family="OpenSans-Semibold, Open Sans" font-size="16" font-weight="500" line-spacing="24" letter-spacing="0.8" fill="#44566C">
+                            <tspan x="0.19375" y="21"> Особистий Кабінет</tspan>
+                        </text>
+                        <g id="Icon/Bag" transform="translate(197.000000, 2.000000)" fill="#4A5B6D">
+                            <path d="M15.5727438,14.6859963 C15.413309,14.6374908 14.4055606,14.2149326 15.035278,12.4342182 L15.0262534,12.4342182 C16.6677302,10.8615181 17.9221513,8.33083291 17.9221513,5.83932527 C17.9221513,2.00831746 15.1836828,0 12.0010027,0 C8.81631723,0 6.0928897,2.00738466 6.0928897,5.83932527 C6.0928897,8.34109371 7.3402917,10.8820397 8.99179581,12.4510086 C9.6355515,14.0218431 8.48441203,14.6048428 8.2437557,14.6859963 C4.91066545,15.8081542 1,17.8519181 1,19.8695635 C1,20.4143185 1,20.0841074 1,20.626064 C1,23.3750243 6.72962625,24 12.0320875,24 C17.3425706,24 23,23.3750243 23,20.626064 C23,20.0850402 23,20.4143185 23,19.8695635 C23,17.7912861 19.0702826,15.7633798 15.5727438,14.6859963 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

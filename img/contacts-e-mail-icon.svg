@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>3DD69887-0AE0-4615-AF5D-8B18C6002B10</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-756.000000, -3785.000000)" fill="#1F262E" fill-rule="nonzero">
+            <g id="Locations" transform="translate(156.000000, 3258.000000)">
+                <g id="Pasichna" transform="translate(576.000000, 378.000000)">
+                    <g id="Icon/Contact/Home-Copy" transform="translate(24.000000, 147.000000)">
+                        <g id="mail" transform="translate(0.000000, 2.666667)">
+                            <polygon id="Path" points="10.6006667 5.582 16 9.39214973 15.9946667 2.028"></polygon>
+                            <polygon id="Path" points="-5.32907052e-14 2.028 -5.32907052e-14 9.39214973 5.394 5.582"></polygon>
+                            <path d="M14.9973333,9.76996262e-15 L0.997333333,9.76996262e-15 C0.498333333,9.76996262e-15 0.102333333,0.372 0.0273333333,0.851 L7.99733333,6.102 L15.9673333,0.851 C15.8923333,0.372 15.4963333,9.76996262e-15 14.9973333,9.76996262e-15 Z" id="Path"></path>
+                            <path d="M9.658,6.00110765 L8.243,7.03343718 C8.159,7.09435791 8.064,7.12426445 7.968,7.12426445 C7.872,7.12426445 7.777,7.09435791 7.693,7.03343718 L6.278,6 L0,10.398477 C0.077,10.9246106 0.471,11.3333333 0.968,11.3333333 L14.968,11.3333333 C15.465,11.3333333 15.859,10.9246106 15.936,10.398477 L9.658,6.00110765 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

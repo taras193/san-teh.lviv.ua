@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+      <meta charset="utf-8">      
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    </head>
+
+<body>
+    <header class="header"> 
+      <div class="header-container">
+        <nav class="header-section">
+                    <a class="header-item header-logo"><img src="./img/sat-teh-logo.png" width="160" height="38" alt="Логотип магазину сантехніки 'САН ТЕХ'"></a>
+                    <a class="header-item header-button" href="">Каталог товарів</a>
+                    <a class="header-item header-button" href="">Про нас</a>
+                    <a class="header-item header-button" href="">Контакти</a>
+        </nav>
+
+                <nav class="header-section">
+                    <a class="header-item header-button" href="">Особистий кабінет</a>
+                    <button class="header-item header-button" type="button"><img src="./img/user-icon.svg"></button>
+                    <button class="header-item header-button" type="button"><img src="./img/search-header.svg"></button>
+                    <button class="header-item header-button" type="button"><img src="./img/bag-header.svg"></button>
+                </nav>
+          </div>
+    </header>
+
+    
+    
+    
+    <!----------------------------WELCOME SECTION----------------------->
+    <main>
+        
+        <section class="welcome-section">
+            <div class="container">
+                <div class="content">
+                    <h2 class="title">Придбайте усі<br> необхідні товари для<br> вашого санвузла</h2>
+                    <div class="welcome-text">
+                        <p class="first-welcome">Вже більше 20 років САН-ТЕХ забезпечує надзвичайно широкий <br>вибір сантехніки і супутніх товарів.</p>
+                        <p class="second-welcome">Низькі ціни та індивідуальний підхід до кожного клієнта<br> дозволяє нам бути вашим помічником №1 у Львові</p>
+                    </div>
+                    
+                    <div class="welcome-search-bar">
+                    <input type="text" id="welcome-search-input-field" name="search" onchange="hideIcon(this);"  placeholder="Змішувач для кухні" />
+                    <button class="welcome-search-submit-btn" type="button">ПОШУК ТОВАРУ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!----------------------------CATEGORY SECTION----------------------->   
+        <section class="category-section">
+            <div class="container">
+                <h3 class="category-title">Придбайте усі необхідні товари в одному місці</h3>
+                    <div class="category-first-row">
+                        <div class="category-block santeh-block">
+                            <div class="category-link">
+                                <a href="">Сантехніка</a>
+                            </div>
+                        </div>
+                        
+                        <div class="category-block instruments-block">
+                            <div class="category-link">
+                                <a href="">Інструменти</a>
+                            </div>
+                        </div>
+                                  
+                        <div class="category-block budmaterial-block">
+                            <div class="category-link">
+                                <a href="">Будматеріали</a>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+                    <div class="category-small-container">
+                        <div class="category-second-row">
+                            <div class="category-block electro-block">
+                                <div class="category-link">
+                                    <a href="">Електротовари</a>
+                                </div>
+                            </div>
+                        
+                            <div class="category-block gosp-block">
+                                <div class="category-link">
+                                    <a href="">Госптовари</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+                
+            
+            <!----------------------------ADVANTAGES SECTION----------------------->  
+    <section class="advantages-section">
+        <div class="container">
+            <h3 class="advantages-title">Ми пишаємося послугами які ми надаємо нашим клієнтам</h3>
+            
+            <div class="advantages-all-blocks">
+        
+            <div class="advantage-block">
+            <div class="advantage-image">
+            <img src="./img/advantagehouse.svg">
+            </div>
+            <div class="advantage-text">
+            <h4>Широкий Вибір</h4>
+            <p>У нас ви знайдете усі необхідні<br>товари для вашого санвузла</p>  
+                </div>
+        </div>
+            
+        <div class="advantage-block">
+            <div class="advantage-image">
+            <img src="./img/advantagecourier.svg">
+            </div>
+            <div class="advantage-text">
+            <h4>Кур’єрська Доставка</h4>
+            <p>Наші кур’єри без проблем<br>
+доставлять товар на ваш об’єкт</p>  
+                </div>
+        </div>
+            
+        <div class="advantage-block">
+            <div class="advantage-image">
+            <img src="./img/advantagehint.svg">
+            </div>
+            <div class="advantage-text">
+            <h4>Корисні Поради</h4>
+            <p>Отримайте допомогу при<br>
+проєктувані та інсталяції</p>  
+            </div>
+        </div>
+            
+        <div class="advantage-block">
+            <div class="advantage-image">
+            <img src="./img/advantagequality.svg">
+            </div>
+            <div class="advantage-text">
+            <h4>Якість</h4>
+            <p>У нас представлена лише якісна<br>
+та фірмова сантехніка</p>  
+            </div>
+        </div>
+        
+        <div class="advantage-block">
+            <div class="advantage-image">
+            <img src="./img/advantagereturn.svg">
+            </div>
+            <div class="advantage-text">
+            <h4>Прості повернення</h4>
+            <p>Безболісно поверніть товари<br>
+які вас не задовільнили</p>  
+            </div>
+        </div>
+            
+        <div class="advantage-block">
+            <div class="advantage-image">
+            <img src="./img/advantagelowprice.svg">
+            </div>
+            <div class="advantage-text">
+            <h4>Низькі ціни</h4>
+            <p>У нас завжди низькі ціни та<br>
+спеціальні умови для інсталяторів</p>  
+            </div>
+        </div>
+            </div><!---.advantages-all-blocks closing------------>
+    </div><!---.container closing------------> 
+        </section>
+
+                    <!----------------------------POPULAR PRODUCTS SECTION----------------------->  
+        <section class="popular-products">
+             <div class="container">
+            <h3 class="advantages-title">Популярні товари у нашому магазині</h3>
+                 <div class="popular-products-carousel">
+                 <div class="item-block">
+                    <img src="./img/popular-item-1.jpg">
+                    <div class="item-block-text">
+                         <a href="#">Змiшувач Nobilis серії NEW ROAD до умивальника RD00118/1CR</a>
+                         <p>Nobilis, Італія</p>
+                         <span>Є в наявності</span>
+                         <h4>2,624.04 грн</h4>
+                    </div><!---.item-block-text closing------------>     
+                 </div>
+                 
+                <div class="item-block">
+                    <img src="./img/popular-item-2.jpg">
+                    <div class="item-block-text">
+                         <a href="#">Змішувач Imprese Boa для кухні стіл з еластичним шлангом 55900</a>
+                         <p>Imprese, Чехія</p>
+                         <span>Є в наявності</span>
+                         <h4>4,264.56 грн</h4>
+                    </div><!---.item-block-text closing------------>     
+                 </div>
+            
+                <div class="item-block">
+                    <img src="./img/popular-item-3.jpg">
+                    <div class="item-block-text">
+                         <a href="#">Змішувач KFA Стандарт-Класік термостатом до душу 576-012-00</a>
+                         <p>KFA, Польща</p>
+                         <span>Є в наявності</span>
+                         <h4>2,889.00 грн</h4>
+                    </div><!---.item-block-text closing------------>     
+                 </div>
+            
+                <div class="item-block">
+                    <img src="./img/popular-item-4.jpg">
+                    <div class="item-block-text">
+                         <a href="#">Змішувач Nobilis Gulliver для біде GA26119/1 12165</a>
+                         <p>Nobilis, Італія</p>
+                         <span>Є в наявності</span>
+                         <h4>2,024.57 грн</h4>
+                    </div><!---.item-block-text closing------------>     
+                 </div>    
+            </div><!---.popular products carousel closing------------> 
+
+            </div><!---.container closing------------> 
+        </section>
+        
+        
+                    <!----------------------------BRANDS SECTION-----------------------> 
+        <section class="brands-section">
+        <h3>Бренди представлені  у нашому магазині</h3>
+            <div class="container">
+                <div class="brands-carousel">
+                <div class="brand">       
+                    <img src="./img/hansgrohelogo.png" alt="Armatura"></a>
+                </div>
+                <div class="brand">       
+                    <img src="./img/kohler-logo.png" alt="Armatura"></a>
+                </div>
+                <div class="brand">       
+                    <img src="./img/geberit-logo.png" alt="Armatura"></a>
+                </div>
+                <div class="brand">       
+                    <img src="./img/hansgrohelogo.png" alt="Armatura"></a>
+                </div>
+                <div class="brand">       
+                    <img src="./img/hansgrohelogo.png" alt="Armatura"></a>
+                </div>
+            </div><!---.brands-carousel closing------------> 
+</div><!---.container closing------------> 
+        </section>
+                   
+
+
+<!----------------------------CONTACT SECTION----------------------->
+        
+        <section class="contact-section">
+
+            <div class="contacts-small-container">
+                    <h3>Завітайте до одного з наших магазинів</h3>
+                
+                <div class="map">
+                    
+                </div>
+                <div class="contact-blocks">
+                    <div class="contact-block">
+                       <h3>Сан-Тех</h3>
+                       <h4>Джерельна</h4>
+                        
+                        <div class="contact-block-contacts">
+                        <div class="contact-block-contacts-adress">
+                            <div class="contact-block-icon">
+                                <img src="./img/contacts-icon.svg">
+                            </div>
+                        <div class="contact-text">
+                            <p>Львів, вул. Джерельна 19</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-block-contacts-phone">
+                            <div class="contact-block-icon">
+                                <img src="./img/contacts-phone-icon.svg">
+                            </div>
+                        <div class="contact-text">
+                            <p>(032) 255-36-95 | (050) 317-45-94</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-block-contacts-e-mail">
+                            <div class="contact-block-icon">
+                                <img src="./img/contacts-e-mail-icon.svg">
+                            </div>
+                        <div class="contact-text">
+                            <p>san-tex@meta.ua</p>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="working-hours-block">
+                        <div class="mon-fri-block">
+                            <h6>Понеділок-Пятниця</h6>
+                            <p>09:00 - 18:00</p>
+                        </div>
+                    <div class="sat-block">
+                        <h6>Субота</h6>
+                        <p>09:00 - 15:00</p>
+                    </div>
+                    <div class="sun-block">
+                        <h6>Неділя</h6>
+                        <p>Вихідний</p>
+                    </div>       
+                </div>
+            </div><!---.pasichna-block closing------------> 
+                        
+                 <div class="contact-block">
+                       <h3>Сан-Тех</h3>
+                       <h4>Пасічна</h4>
+                        
+                        <div class="contact-block-contacts">
+                        <div class="contact-block-contacts-adress">
+                            <div class="contact-block-icon">
+                                <img src="./img/contacts-icon.svg">
+                            </div>
+                        <div class="contact-text">
+                            <p>Львів, вул. Пасічна 33</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-block-contacts-phone">
+                            <div class="contact-block-icon">
+                                <img src="./img/contacts-phone-icon.svg">
+                            </div>
+                        <div class="contact-text">
+                            <p>(032) 232-99-34  |  (098) 922-40-75</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-block-contacts-e-mail">
+                            <div class="contact-block-icon">
+                                <img src="./img/contacts-e-mail-icon.svg">
+                            </div>
+                        <div class="contact-text">
+                            <p>san-tex@meta.ua</p>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="working-hours-block">
+                        <div class="mon-fri-block">
+                            <h6>Понеділок-Пятниця</h6>
+                            <p>09:00 - 18:00</p>
+                        </div>
+                    <div class="sat-block">
+                        <h6>Субота</h6>
+                        <p>09:00 - 15:00</p>
+                    </div>
+                    <div class="sun-block">
+                        <h6>Неділя</h6>
+                        <p>Вихідний</p>
+                    </div>       
+                </div>
+            </div><!---.pasichna-block closing------------>    
+                    
+                                           
+                    
+                    
+                    
+                    
+                    
+
+
+        </div><!---.container closing------------> 
+        </section>
+    </main>
+
+
+
+   
+    <footer class="footer">
+        <div class="container">
+          
+            <div class="container-footer-links">
+            <div class="footer links">
+
+                <div class="footer-link">
+                    <a href="">Популярні питання</a>
+                    <a href="">Оплата і доставка Товару</a>
+                    <a href="">Повернення Товару</a>
+                </div>
+
+            
+                <div class="footer-link">
+                    <a href="">Додаткові послуги</a>
+                    <a href="">Розташування магазинів</a>
+                    <a href="">Контактна інформація</a>
+                </div>
+
+                <div class="footer-link">
+                    <a href="">Особистий кабінет</a>
+                    <a href="">Податися на роботу</a>
+                    <a href="">Про нас</a>
+                </div>
+                                  <div class="footer-cards">
+                <p>Оплачуйте</p>
+                <img src="./img/visacard.svg" alt="Visa Card">
+                <img src="./img/mastercard.svg" alt="MasterCard">
+            </div>
+                
+            </div>
+   </div>
+            
+              </div><!---.container closing------------> 
+    </footer>
+    
+
+</body>
+    
+    
+    
+</html>
